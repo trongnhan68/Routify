@@ -12,5 +12,5 @@ pod 'AFNetworking'
 pod "MagicalRecord"
 pod 'HanekeSwift'
 pod 'GCDKit'
-
+pod "AwesomeButton"
 end

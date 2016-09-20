@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AwesomeButton-AwesomeButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AwesomeButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,12 +67,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56E0F5A10224605C8D256B98CAE788AB</key>
+		<key>63E02B6DD64437E328868C70C25C4BE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>7129FAB61478FA70223DADF4921468CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD002A8CD38EDB3021922F949FC8081F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE9A13C8ED4A21301925081C0F11347A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

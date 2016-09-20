@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AwesomeButton (0.2.0)
   - Bolts/Tasks (1.8.3)
   - GCDKit (1.2.5)
   - HanekeSwift (0.10.1)
@@ -25,6 +26,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AwesomeButton
   - GCDKit
   - HanekeSwift
   - MagicalRecord
@@ -32,12 +34,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AwesomeButton: 59eef1ff4875b4887e68f803c5dc664c27b63fa5
   Bolts: 52551f96df2f8aac6b4414347f3f8353a39f1966
   GCDKit: ed6646fcf761ff139162aaac518b9ec1fb7aa720
   HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
 
-PODFILE CHECKSUM: e0fe78e02a5c5f02adcb105d3c9268769c9c1643
+PODFILE CHECKSUM: 288ccc95909b28c8db5ff89f0fe187df475d855a
 
 COCOAPODS: 1.0.0

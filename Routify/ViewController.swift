@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Haneke
+import AwesomeButton
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func touchBtn(sender: AwesomeButton) {
+        
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+        
+        
+        let view2 = storyBoard.instantiateViewControllerWithIdentifier("SecondViewController")
+        
+        self.presentViewController(view2, animated: true) {
+            //
+        }
+        
+    }
 
 }
 
