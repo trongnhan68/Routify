@@ -12,7 +12,7 @@ class RFNavigationBar: UIView {
 
     let sharedIntance = RFNavigationBar()
     
-    func initCommonUI(frame: CGRect) -> Void {
+    func initCommonUI(_ frame: CGRect) -> Void {
         
     }
     

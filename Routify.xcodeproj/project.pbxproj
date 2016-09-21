@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		55B6EF5BDB80B7E328B8C3B2 /* Pods_Routify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C575CADBAE14735140546B /* Pods_Routify.framework */; };
 		695858811D91161900ABBE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695858801D91161900ABBE25 /* AppDelegate.swift */; };
-		695858831D91161900ABBE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695858821D91161900ABBE25 /* ViewController.swift */; };
+		695858831D91161900ABBE25 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695858821D91161900ABBE25 /* BaseViewController.swift */; };
 		695858861D91161900ABBE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695858841D91161900ABBE25 /* Main.storyboard */; };
 		695858891D91161900ABBE25 /* Routify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 695858871D91161900ABBE25 /* Routify.xcdatamodeld */; };
 		6958588B1D91161900ABBE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6958588A1D91161900ABBE25 /* Assets.xcassets */; };
 		6958588E1D91161900ABBE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6958588C1D91161900ABBE25 /* LaunchScreen.storyboard */; };
-		699EAA3A1D9129E5005B8327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699EAA311D9129E5005B8327 /* LaunchScreen.storyboard */; };
-		699EAA3B1D9129E5005B8327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699EAA331D9129E5005B8327 /* Main.storyboard */; };
 		699EAB1A1D915046005B8327 /* RFNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699EAB191D915046005B8327 /* RFNavigationBar.swift */; };
+		6B7EDA191D918D1D00730FFA /* CoreDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EDA161D918D1D00730FFA /* CoreDBManager.swift */; };
+		6B7EDA1A1D918D1D00730FFA /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EDA171D918D1D00730FFA /* EntityModel.swift */; };
+		6B7EDA1B1D918D1D00730FFA /* GJButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EDA181D918D1D00730FFA /* GJButton.swift */; };
+		6B7EDA1D1D92F10F00730FFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B7EDA1C1D92F10F00730FFA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,15 +26,17 @@
 		32C575CADBAE14735140546B /* Pods_Routify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Routify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6958587D1D91161900ABBE25 /* Routify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695858801D91161900ABBE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		695858821D91161900ABBE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		695858821D91161900ABBE25 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		695858851D91161900ABBE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		695858881D91161900ABBE25 /* Routify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Routify.xcdatamodel; sourceTree = "<group>"; };
 		6958588A1D91161900ABBE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6958588D1D91161900ABBE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6958588F1D91161900ABBE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699EAA321D9129E5005B8327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		699EAA341D9129E5005B8327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		699EAB191D915046005B8327 /* RFNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFNavigationBar.swift; sourceTree = "<group>"; };
+		6B7EDA161D918D1D00730FFA /* CoreDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDBManager.swift; path = Routify/CoreDBManager.swift; sourceTree = SOURCE_ROOT; };
+		6B7EDA171D918D1D00730FFA /* EntityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntityModel.swift; path = Routify/EntityModel.swift; sourceTree = SOURCE_ROOT; };
+		6B7EDA181D918D1D00730FFA /* GJButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GJButton.swift; path = Routify/GJButton.swift; sourceTree = SOURCE_ROOT; };
+		6B7EDA1C1D92F10F00730FFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "CustomClass/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97844B21F0E8A14A8624DD22 /* Pods-Routify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Routify/Pods-Routify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +82,17 @@
 		6958587F1D91161900ABBE25 /* Routify */ = {
 			isa = PBXGroup;
 			children = (
-				699EAA301D9129E5005B8327 /* Base.lproj */,
+				6B7EDA1C1D92F10F00730FFA /* GoogleService-Info.plist */,
 				699EAA351D9129E5005B8327 /* CustomClass */,
 				699EAA361D9129E5005B8327 /* Managers */,
 				699EAA371D9129E5005B8327 /* Models */,
 				699EAA381D9129E5005B8327 /* OpenLibs */,
 				699EAA391D9129E5005B8327 /* ViewControllers */,
+				6B7EDA161D918D1D00730FFA /* CoreDBManager.swift */,
+				6B7EDA171D918D1D00730FFA /* EntityModel.swift */,
+				6B7EDA181D918D1D00730FFA /* GJButton.swift */,
 				695858801D91161900ABBE25 /* AppDelegate.swift */,
-				695858821D91161900ABBE25 /* ViewController.swift */,
+				695858821D91161900ABBE25 /* BaseViewController.swift */,
 				695858841D91161900ABBE25 /* Main.storyboard */,
 				6958588A1D91161900ABBE25 /* Assets.xcassets */,
 				6958588C1D91161900ABBE25 /* LaunchScreen.storyboard */,
@@ -93,15 +100,6 @@
 				695858871D91161900ABBE25 /* Routify.xcdatamodeld */,
 			);
 			path = Routify;
-			sourceTree = "<group>";
-		};
-		699EAA301D9129E5005B8327 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				699EAA311D9129E5005B8327 /* LaunchScreen.storyboard */,
-				699EAA331D9129E5005B8327 /* Main.storyboard */,
-			);
-			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		699EAA351D9129E5005B8327 /* CustomClass */ = {
@@ -155,12 +153,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695858921D91161900ABBE25 /* Build configuration list for PBXNativeTarget "Routify" */;
 			buildPhases = (
+				AA2D4FC4476423999C814CE3 /* Check Pods Manifest.lock */,
 				AB1ABCF346AAF94C2DCFA64A /* 📦 Check Pods Manifest.lock */,
 				695858791D91161900ABBE25 /* Sources */,
 				6958587A1D91161900ABBE25 /* Frameworks */,
 				6958587B1D91161900ABBE25 /* Resources */,
 				42BC94E57FCFA6270BB5F2C9 /* 📦 Embed Pods Frameworks */,
 				38AE5793ABFC4D45FECC12B9 /* 📦 Copy Pods Resources */,
+				AA226A9B068231836AE78E3A /* Embed Pods Frameworks */,
+				8C6D2100077EC21F6714FB30 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +184,7 @@
 				TargetAttributes = {
 					6958587C1D91161900ABBE25 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -210,8 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6958588E1D91161900ABBE25 /* LaunchScreen.storyboard in Resources */,
-				699EAA3B1D9129E5005B8327 /* Main.storyboard in Resources */,
-				699EAA3A1D9129E5005B8327 /* LaunchScreen.storyboard in Resources */,
+				6B7EDA1D1D92F10F00730FFA /* GoogleService-Info.plist in Resources */,
 				6958588B1D91161900ABBE25 /* Assets.xcassets in Resources */,
 				695858861D91161900ABBE25 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +251,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routify/Pods-Routify-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8C6D2100077EC21F6714FB30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routify/Pods-Routify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA226A9B068231836AE78E3A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routify/Pods-Routify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2D4FC4476423999C814CE3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		AB1ABCF346AAF94C2DCFA64A /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,10 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695858831D91161900ABBE25 /* ViewController.swift in Sources */,
+				6B7EDA1B1D918D1D00730FFA /* GJButton.swift in Sources */,
+				6B7EDA1A1D918D1D00730FFA /* EntityModel.swift in Sources */,
+				695858831D91161900ABBE25 /* BaseViewController.swift in Sources */,
 				699EAB1A1D915046005B8327 /* RFNavigationBar.swift in Sources */,
 				695858891D91161900ABBE25 /* Routify.xcdatamodeld in Sources */,
 				695858811D91161900ABBE25 /* AppDelegate.swift in Sources */,
+				6B7EDA191D918D1D00730FFA /* CoreDBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,22 +345,6 @@
 				6958588D1D91161900ABBE25 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		699EAA311D9129E5005B8327 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				699EAA321D9129E5005B8327 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		699EAA331D9129E5005B8327 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				699EAA341D9129E5005B8327 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NLT-Corp.Routify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -423,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NLT-Corp.Routify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

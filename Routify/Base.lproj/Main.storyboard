@@ -1,131 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--First ViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="First ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Routify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="First ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="BaseViewController" customModule="Routify" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to abc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zen-9x-zZf">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Routify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zen-9x-zZf">
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKJ-T8-VrA" customClass="AwesomeButton" customModule="AwesomeButton">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.92106058767877286" green="0.9605624675995712" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="106" id="C1W-I2-0Vc"/>
-                                    <constraint firstAttribute="height" constant="40" id="CxV-xk-w70"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Touch "/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.35577463061918224" green="0.74771778658301646" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="iconYOffset">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="C1W-I2-0Vc"/>
-                                        <exclude reference="CxV-xk-w70"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="C1W-I2-0Vc"/>
-                                        <include reference="CxV-xk-w70"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="touchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tc6-6O-9Yi"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How successful people organize their life" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zju-C6-ozp">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.29803921568627451" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="iKJ-T8-VrA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3yE-xj-kHc">
-                                <variation key="heightClass=regular-widthClass=compact" constant="100"/>
-                            </constraint>
-                            <constraint firstItem="iKJ-T8-VrA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AH8-xY-fHO"/>
                             <constraint firstAttribute="trailing" secondItem="Zen-9x-zZf" secondAttribute="trailing" id="FWT-mI-dI2"/>
                             <constraint firstItem="Zen-9x-zZf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gyn-na-pDL"/>
-                            <constraint firstItem="Zen-9x-zZf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KHm-Bg-eXV"/>
+                            <constraint firstItem="Zen-9x-zZf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="KHm-Bg-eXV"/>
+                            <constraint firstItem="Zju-C6-ozp" firstAttribute="top" secondItem="Zen-9x-zZf" secondAttribute="bottom" constant="20" id="WKX-XE-SIc"/>
+                            <constraint firstItem="Zju-C6-ozp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="YCq-D9-kNB"/>
+                            <constraint firstAttribute="trailing" secondItem="Zju-C6-ozp" secondAttribute="trailing" constant="10" id="h62-w7-Emo"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Zen-9x-zZf"/>
-                                <exclude reference="iKJ-T8-VrA"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="FWT-mI-dI2"/>
                                 <exclude reference="Gyn-na-pDL"/>
                                 <exclude reference="KHm-Bg-eXV"/>
-                                <exclude reference="3yE-xj-kHc"/>
-                                <exclude reference="AH8-xY-fHO"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Zen-9x-zZf"/>
-                                <include reference="iKJ-T8-VrA"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="FWT-mI-dI2"/>
                                 <include reference="Gyn-na-pDL"/>
                                 <include reference="KHm-Bg-eXV"/>
-                                <include reference="3yE-xj-kHc"/>
-                                <include reference="AH8-xY-fHO"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="450" y="261"/>
+            <point key="canvasLocation" x="450" y="260.91549295774649"/>
         </scene>
         <!--Second ViewController-->
         <scene sceneID="85r-ve-qBU">
             <objects>
-                <viewController storyboardIdentifier="SecondViewController" title="Second ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CpB-0y-NQM" customClass="ViewController" customModule="Routify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" title="Second ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CpB-0y-NQM" customClass="BaseViewController" customModule="Routify" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="984-jL-bCN"/>
                         <viewControllerLayoutGuide type="bottom" id="qub-Vy-z6t"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zXk-Jv-n1M">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahu-NO-fCC">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahu-NO-fCC">
+                                <frame key="frameInset" minX="137" minY="215" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="155" y="215" width="46" height="30"/>
-                                </variation>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ahu-NO-fCC"/>
